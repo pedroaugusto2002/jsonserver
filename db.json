@@ -1,9 +1,1294 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "champions": [
+    {
+      "version": "13.4.1",
+      "id": "Aatrox",
+      "key": "266",
+      "name": "Aatrox",
+      "title": "a Espada Darkin",
+      "blurb": "Antes defensores honrados de Shurima contra o temido Vazio, Aatrox e seus irmãos acabaram se tornando uma ameaça ainda maior para Runeterra, e a única coisa capaz de derrotá-los foi um tipo de feitiçaria mortal e traiçoeira. Mas após séculos de...",
+      "info": {
+        "attack": 8,
+        "defense": 4,
+        "magic": 3,
+        "difficulty": 4
+      },
+      "image": {
+        "full": "Aatrox.png",
+        "sprite": "champion0.png",
+        "group": "champion",
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      },
+      "tags": [
+        "Fighter",
+        "Tank"
+      ],
+      "partype": "Poço de Sangue",
+      "stats": {
+        "hp": 650,
+        "hpperlevel": 114,
+        "mp": 0,
+        "mpperlevel": 0,
+        "movespeed": 345,
+        "armor": 38,
+        "armorperlevel": 4.45,
+        "spellblock": 32,
+        "spellblockperlevel": 2.05,
+        "attackrange": 175,
+        "hpregen": 3,
+        "hpregenperlevel": 1,
+        "mpregen": 0,
+        "mpregenperlevel": 0,
+        "crit": 0,
+        "critperlevel": 0,
+        "attackdamage": 60,
+        "attackdamageperlevel": 5,
+        "attackspeedperlevel": 2.5,
+        "attackspeed": 0.651
+      }
+    },
+    {
+      "version": "13.4.1",
+      "id": "Ahri",
+      "key": "103",
+      "name": "Ahri",
+      "title": "a Raposa de Nove Caudas",
+      "blurb": "A ligação de Ahri com a magia do mundo espiritual é inata. Ela é uma vastaya com traços de raposa, capaz de manipular as emoções de sua presa e consumir sua essência, devorando também as memórias e as percepções de cada alma absorvida. Outrora uma...",
+      "info": {
+        "attack": 3,
+        "defense": 4,
+        "magic": 8,
+        "difficulty": 5
+      },
+      "image": {
+        "full": "Ahri.png",
+        "sprite": "champion0.png",
+        "group": "champion",
+        "x": 48,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      },
+      "tags": [
+        "Mage",
+        "Assassin"
+      ],
+      "partype": "Mana",
+      "stats": {
+        "hp": 590,
+        "hpperlevel": 96,
+        "mp": 418,
+        "mpperlevel": 25,
+        "movespeed": 330,
+        "armor": 21,
+        "armorperlevel": 4.7,
+        "spellblock": 30,
+        "spellblockperlevel": 1.3,
+        "attackrange": 550,
+        "hpregen": 2.5,
+        "hpregenperlevel": 0.6,
+        "mpregen": 8,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0,
+        "attackdamage": 53,
+        "attackdamageperlevel": 3,
+        "attackspeedperlevel": 2,
+        "attackspeed": 0.668
+      }
+    },
+    {
+      "version": "13.4.1",
+      "id": "Akali",
+      "key": "84",
+      "name": "Akali",
+      "title": "a Assassina Renegada",
+      "blurb": "Abandonando a Ordem Kinkou e seu título de Punho das Sombras, Akali agora ataca sozinha, pronta para ser a arma mortal que seu povo precisa. Embora ela mantenha tudo o que aprendeu com seu mestre Shen, ela se comprometeu a defender Ionia de seus...",
+      "info": {
+        "attack": 5,
+        "defense": 3,
+        "magic": 8,
+        "difficulty": 7
+      },
+      "image": {
+        "full": "Akali.png",
+        "sprite": "champion0.png",
+        "group": "champion",
+        "x": 96,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      },
+      "tags": [
+        "Assassin"
+      ],
+      "partype": "Energia",
+      "stats": {
+        "hp": 570,
+        "hpperlevel": 119,
+        "mp": 200,
+        "mpperlevel": 0,
+        "movespeed": 345,
+        "armor": 23,
+        "armorperlevel": 4.7,
+        "spellblock": 37,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 9,
+        "hpregenperlevel": 0.9,
+        "mpregen": 50,
+        "mpregenperlevel": 0,
+        "crit": 0,
+        "critperlevel": 0,
+        "attackdamage": 62,
+        "attackdamageperlevel": 3.3,
+        "attackspeedperlevel": 3.2,
+        "attackspeed": 0.625
+      }
+    },
+    {
+      "version": "13.4.1",
+      "id": "Akshan",
+      "key": "166",
+      "name": "Akshan",
+      "title": "o Sentinela Rebelde",
+      "blurb": "Akshan ri da cara do perigo, lutando contra o mal com carisma, determinação e desejo de vingança, mas, estranhamente, sem vestir uma camisa sequer. É extremamente habilidoso na arte do combate furtivo, capaz de sumir da vista dos inimigos e reaparecer...",
+      "info": {
+        "attack": 0,
+        "defense": 0,
+        "magic": 0,
+        "difficulty": 0
+      },
+      "image": {
+        "full": "Akshan.png",
+        "sprite": "champion0.png",
+        "group": "champion",
+        "x": 144,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      },
+      "tags": [
+        "Marksman",
+        "Assassin"
+      ],
+      "partype": "Mana",
+      "stats": {
+        "hp": 630,
+        "hpperlevel": 104,
+        "mp": 350,
+        "mpperlevel": 40,
+        "movespeed": 330,
+        "armor": 26,
+        "armorperlevel": 4.2,
+        "spellblock": 30,
+        "spellblockperlevel": 1.3,
+        "attackrange": 500,
+        "hpregen": 3.75,
+        "hpregenperlevel": 0.65,
+        "mpregen": 8.2,
+        "mpregenperlevel": 0.7,
+        "crit": 0,
+        "critperlevel": 0,
+        "attackdamage": 52,
+        "attackdamageperlevel": 3.5,
+        "attackspeedperlevel": 4,
+        "attackspeed": 0.638
+      }
+    },
+    {
+      "version": "13.4.1",
+      "id": "Alistar",
+      "key": "12",
+      "name": "Alistar",
+      "title": "o Minotauro",
+      "blurb": "Um poderoso guerreiro com uma temível reputação, Alistar busca vingança por seu clã, morto pelas mãos do império de Noxus. Apesar de ter sido escravizado e forçado a uma vida de gladiador, sua vontade indestrutível o impediu de se tornar uma fera de...",
+      "info": {
+        "attack": 6,
+        "defense": 9,
+        "magic": 5,
+        "difficulty": 7
+      },
+      "image": {
+        "full": "Alistar.png",
+        "sprite": "champion0.png",
+        "group": "champion",
+        "x": 192,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      },
+      "tags": [
+        "Tank",
+        "Support"
+      ],
+      "partype": "Mana",
+      "stats": {
+        "hp": 670,
+        "hpperlevel": 120,
+        "mp": 350,
+        "mpperlevel": 40,
+        "movespeed": 330,
+        "armor": 44,
+        "armorperlevel": 4.7,
+        "spellblock": 32,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 8.5,
+        "hpregenperlevel": 0.85,
+        "mpregen": 8.5,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0,
+        "attackdamage": 62,
+        "attackdamageperlevel": 3.75,
+        "attackspeedperlevel": 2.125,
+        "attackspeed": 0.625
+      }
+    },
+    {
+      "version": "13.4.1",
+      "id": "Amumu",
+      "key": "32",
+      "name": "Amumu",
+      "title": "a Múmia Triste",
+      "blurb": "Reza a lenda que Amumu é uma alma solitária e melancólica da antiga Shurima que vaga sem rumo pelo mundo em busca de um amigo. Amaldiçoado por um feitiço ancestral para permanecer só pela eternidade, seu toque traz a morte e sua afeição, a ruína...",
+      "info": {
+        "attack": 2,
+        "defense": 6,
+        "magic": 8,
+        "difficulty": 3
+      },
+      "image": {
+        "full": "Amumu.png",
+        "sprite": "champion0.png",
+        "group": "champion",
+        "x": 240,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      },
+      "tags": [
+        "Tank",
+        "Mage"
+      ],
+      "partype": "Mana",
+      "stats": {
+        "hp": 685,
+        "hpperlevel": 94,
+        "mp": 285,
+        "mpperlevel": 40,
+        "movespeed": 335,
+        "armor": 30,
+        "armorperlevel": 4,
+        "spellblock": 32,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 9,
+        "hpregenperlevel": 0.85,
+        "mpregen": 7.4,
+        "mpregenperlevel": 0.55,
+        "crit": 0,
+        "critperlevel": 0,
+        "attackdamage": 53,
+        "attackdamageperlevel": 3.8,
+        "attackspeedperlevel": 2.18,
+        "attackspeed": 0.736
+      }
+    },
+    {
+      "version": "13.4.1",
+      "id": "Anivia",
+      "key": "34",
+      "name": "Anivia",
+      "title": "a Criofênix",
+      "blurb": "Anivia é um espírito alado e benevolente que suporta infinitos ciclos de vida, morte e renascimento para proteger Freljord. Uma semideusa nascida de ventos impiedosos e frios brutais, ela carrega esses poderes elementais para perseguir qualquer um que...",
+      "info": {
+        "attack": 1,
+        "defense": 4,
+        "magic": 10,
+        "difficulty": 10
+      },
+      "image": {
+        "full": "Anivia.png",
+        "sprite": "champion0.png",
+        "group": "champion",
+        "x": 288,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      },
+      "tags": [
+        "Mage",
+        "Support"
+      ],
+      "partype": "Mana",
+      "stats": {
+        "hp": 550,
+        "hpperlevel": 92,
+        "mp": 495,
+        "mpperlevel": 45,
+        "movespeed": 325,
+        "armor": 21,
+        "armorperlevel": 4.9,
+        "spellblock": 30,
+        "spellblockperlevel": 1.3,
+        "attackrange": 600,
+        "hpregen": 5.5,
+        "hpregenperlevel": 0.55,
+        "mpregen": 8,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0,
+        "attackdamage": 51,
+        "attackdamageperlevel": 3.2,
+        "attackspeedperlevel": 1.68,
+        "attackspeed": 0.625
+      }
+    },
+    {
+      "version": "13.4.1",
+      "id": "Annie",
+      "key": "1",
+      "name": "Annie",
+      "title": "a Criança Sombria",
+      "blurb": "Perigosa, mas adoravelmente precoce, Annie é uma pequena maga com imenso poder piromaníaco. Mesmo isolada nas sombras das montanhas ao norte de Noxus, ela causa estranhamento com sua magia. Sua afinidade natural com o fogo já era evidente desde a...",
+      "info": {
+        "attack": 2,
+        "defense": 3,
+        "magic": 10,
+        "difficulty": 6
+      },
+      "image": {
+        "full": "Annie.png",
+        "sprite": "champion0.png",
+        "group": "champion",
+        "x": 336,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      },
+      "tags": [
+        "Mage"
+      ],
+      "partype": "Mana",
+      "stats": {
+        "hp": 594,
+        "hpperlevel": 102,
+        "mp": 418,
+        "mpperlevel": 25,
+        "movespeed": 335,
+        "armor": 19,
+        "armorperlevel": 4.7,
+        "spellblock": 30,
+        "spellblockperlevel": 1.3,
+        "attackrange": 625,
+        "hpregen": 5.5,
+        "hpregenperlevel": 0.55,
+        "mpregen": 8,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0,
+        "attackdamage": 50,
+        "attackdamageperlevel": 2.65,
+        "attackspeedperlevel": 1.36,
+        "attackspeed": 0.579
+      }
+    },
+    {
+      "version": "13.4.1",
+      "id": "Aphelios",
+      "key": "523",
+      "name": "Aphelios",
+      "title": "a Arma dos Devotos",
+      "blurb": "Emergindo da sombra do luar com suas armas em mãos, Aphelios abate os inimigos de sua fé em absoluto silêncio, comunicando-se apenas pela destreza de sua mira e pelo disparo de cada arma. Embora viva sob o efeito de um veneno que o emudeceu, ele é...",
+      "info": {
+        "attack": 6,
+        "defense": 2,
+        "magic": 1,
+        "difficulty": 10
+      },
+      "image": {
+        "full": "Aphelios.png",
+        "sprite": "champion0.png",
+        "group": "champion",
+        "x": 384,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      },
+      "tags": [
+        "Marksman"
+      ],
+      "partype": "Mana",
+      "stats": {
+        "hp": 580,
+        "hpperlevel": 102,
+        "mp": 348,
+        "mpperlevel": 42,
+        "movespeed": 325,
+        "armor": 26,
+        "armorperlevel": 4.2,
+        "spellblock": 30,
+        "spellblockperlevel": 1.3,
+        "attackrange": 550,
+        "hpregen": 3.25,
+        "hpregenperlevel": 0.55,
+        "mpregen": 6.5,
+        "mpregenperlevel": 0.4,
+        "crit": 0,
+        "critperlevel": 0,
+        "attackdamage": 55,
+        "attackdamageperlevel": 3,
+        "attackspeedperlevel": 2.1,
+        "attackspeed": 0.64
+      }
+    },
+    {
+      "version": "13.4.1",
+      "id": "Ashe",
+      "key": "22",
+      "name": "Ashe",
+      "title": "a Arqueira do Gelo",
+      "blurb": "A mãe de guerra Glacinata da tribo de Avarosa, Ashe comanda a horda mais populosa do norte. Estoica, inteligente e idealista, mesmo que desconfortável com seu papel de liderança, ela canaliza as magias ancestrais de sua linhagem para empunhar um arco de...",
+      "info": {
+        "attack": 7,
+        "defense": 3,
+        "magic": 2,
+        "difficulty": 4
+      },
+      "image": {
+        "full": "Ashe.png",
+        "sprite": "champion0.png",
+        "group": "champion",
+        "x": 432,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      },
+      "tags": [
+        "Marksman",
+        "Support"
+      ],
+      "partype": "Mana",
+      "stats": {
+        "hp": 640,
+        "hpperlevel": 101,
+        "mp": 280,
+        "mpperlevel": 35,
+        "movespeed": 325,
+        "armor": 26,
+        "armorperlevel": 4.6,
+        "spellblock": 30,
+        "spellblockperlevel": 1.3,
+        "attackrange": 600,
+        "hpregen": 3.5,
+        "hpregenperlevel": 0.55,
+        "mpregen": 7,
+        "mpregenperlevel": 0.65,
+        "crit": 0,
+        "critperlevel": 0,
+        "attackdamage": 59,
+        "attackdamageperlevel": 2.95,
+        "attackspeedperlevel": 3.33,
+        "attackspeed": 0.658
+      }
+    },
+    {
+      "version": "13.4.1",
+      "id": "AurelionSol",
+      "key": "136",
+      "name": "Aurelion Sol",
+      "title": "o Forjador de Estrelas",
+      "blurb": "Aurelion Sol costumava agraciar a vasta imensidão vazia dos cosmos com maravilhas celestiais concebidas por ele mesmo. Agora, ele é forçado a usar seu incrível poder a mando de um império espacial remoto que o enganou e o mantém sob servidão. Desejando...",
+      "info": {
+        "attack": 2,
+        "defense": 3,
+        "magic": 8,
+        "difficulty": 7
+      },
+      "image": {
+        "full": "AurelionSol.png",
+        "sprite": "champion0.png",
+        "group": "champion",
+        "x": 0,
+        "y": 48,
+        "w": 48,
+        "h": 48
+      },
+      "tags": [
+        "Mage"
+      ],
+      "partype": "Mana",
+      "stats": {
+        "hp": 620,
+        "hpperlevel": 100,
+        "mp": 530,
+        "mpperlevel": 40,
+        "movespeed": 335,
+        "armor": 22,
+        "armorperlevel": 4.8,
+        "spellblock": 30,
+        "spellblockperlevel": 1.3,
+        "attackrange": 550,
+        "hpregen": 5.5,
+        "hpregenperlevel": 0.55,
+        "mpregen": 8,
+        "mpregenperlevel": 0.75,
+        "crit": 0,
+        "critperlevel": 0,
+        "attackdamage": 55,
+        "attackdamageperlevel": 3.2,
+        "attackspeedperlevel": 1.5,
+        "attackspeed": 0.625
+      }
+    },
+    {
+      "version": "13.4.1",
+      "id": "Azir",
+      "key": "268",
+      "name": "Azir",
+      "title": "o Imperador das Areias",
+      "blurb": "Azir foi um imperador mortal de Shurima em uma era muito antiga e um homem orgulhoso que esteve a um passo da imortalidade. Sua insolência fez com que fosse traído e assassinado no momento de seu maior triunfo, mas agora, milênios depois, ele renasceu...",
+      "info": {
+        "attack": 6,
+        "defense": 3,
+        "magic": 8,
+        "difficulty": 9
+      },
+      "image": {
+        "full": "Azir.png",
+        "sprite": "champion0.png",
+        "group": "champion",
+        "x": 48,
+        "y": 48,
+        "w": 48,
+        "h": 48
+      },
+      "tags": [
+        "Mage",
+        "Marksman"
+      ],
+      "partype": "Mana",
+      "stats": {
+        "hp": 622,
+        "hpperlevel": 119,
+        "mp": 380,
+        "mpperlevel": 36,
+        "movespeed": 335,
+        "armor": 19,
+        "armorperlevel": 4.2,
+        "spellblock": 30,
+        "spellblockperlevel": 1.3,
+        "attackrange": 525,
+        "hpregen": 7,
+        "hpregenperlevel": 0.75,
+        "mpregen": 8,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0,
+        "attackdamage": 52,
+        "attackdamageperlevel": 2.8,
+        "attackspeedperlevel": 3,
+        "attackspeed": 0.625
+      }
+    },
+    {
+      "version": "13.4.1",
+      "id": "Bard",
+      "key": "432",
+      "name": "Bardo",
+      "title": "o Protetor Andarilho",
+      "blurb": "Viajante de galáxias distantes, Bardo é um agente do acaso que luta para manter um equilíbrio em que a vida possa suportar a indiferença do caos. Muitos habitantes de Runeterra entoam canções que louvam sua extraordinária índole, mas todos concordam que...",
+      "info": {
+        "attack": 4,
+        "defense": 4,
+        "magic": 5,
+        "difficulty": 9
+      },
+      "image": {
+        "full": "Bard.png",
+        "sprite": "champion0.png",
+        "group": "champion",
+        "x": 96,
+        "y": 48,
+        "w": 48,
+        "h": 48
+      },
+      "tags": [
+        "Support",
+        "Mage"
+      ],
+      "partype": "Mana",
+      "stats": {
+        "hp": 630,
+        "hpperlevel": 103,
+        "mp": 350,
+        "mpperlevel": 50,
+        "movespeed": 330,
+        "armor": 34,
+        "armorperlevel": 5.2,
+        "spellblock": 30,
+        "spellblockperlevel": 1.3,
+        "attackrange": 500,
+        "hpregen": 5.5,
+        "hpregenperlevel": 0.55,
+        "mpregen": 6,
+        "mpregenperlevel": 0.45,
+        "crit": 0,
+        "critperlevel": 0,
+        "attackdamage": 52,
+        "attackdamageperlevel": 3,
+        "attackspeedperlevel": 2,
+        "attackspeed": 0.625
+      }
+    },
+    {
+      "version": "13.4.1",
+      "id": "Belveth",
+      "key": "200",
+      "name": "Bel'Veth",
+      "title": "a Imperatriz do Vazio",
+      "blurb": "Bel'Veth, uma imperatriz tenebrosa nascida da essência de uma cidade devorada, é o fim da própria Runeterra... E o início de uma realidade monstruosa criada à sua imagem. Guiada por eras de história, conhecimento e lembranças adaptadas do mundo superior...",
+      "info": {
+        "attack": 4,
+        "defense": 2,
+        "magic": 7,
+        "difficulty": 10
+      },
+      "image": {
+        "full": "Belveth.png",
+        "sprite": "champion0.png",
+        "group": "champion",
+        "x": 144,
+        "y": 48,
+        "w": 48,
+        "h": 48
+      },
+      "tags": [
+        "Fighter"
+      ],
+      "partype": "",
+      "stats": {
+        "hp": 610,
+        "hpperlevel": 99,
+        "mp": 60,
+        "mpperlevel": 0,
+        "movespeed": 340,
+        "armor": 32,
+        "armorperlevel": 4.7,
+        "spellblock": 32,
+        "spellblockperlevel": 2.05,
+        "attackrange": 175,
+        "hpregen": 6,
+        "hpregenperlevel": 0.6,
+        "mpregen": 0,
+        "mpregenperlevel": 0,
+        "crit": 0,
+        "critperlevel": 0,
+        "attackdamage": 60,
+        "attackdamageperlevel": 1.7,
+        "attackspeedperlevel": 0,
+        "attackspeed": 0.85
+      }
+    },
+    {
+      "version": "13.4.1",
+      "id": "Blitzcrank",
+      "key": "53",
+      "name": "Blitzcrank",
+      "title": "o Grande Golem a Vapor",
+      "blurb": "Blitzcrank é um autômato enorme e praticamente indestrutível de Zaun, construído originalmente para lidar com lixo tóxico. No entanto, ele achou seu propósito principal muito restritivo e modificou sua própria forma para ajudar as pessoas menos...",
+      "info": {
+        "attack": 4,
+        "defense": 8,
+        "magic": 5,
+        "difficulty": 4
+      },
+      "image": {
+        "full": "Blitzcrank.png",
+        "sprite": "champion0.png",
+        "group": "champion",
+        "x": 192,
+        "y": 48,
+        "w": 48,
+        "h": 48
+      },
+      "tags": [
+        "Tank",
+        "Fighter"
+      ],
+      "partype": "Mana",
+      "stats": {
+        "hp": 633,
+        "hpperlevel": 109,
+        "mp": 267,
+        "mpperlevel": 40,
+        "movespeed": 325,
+        "armor": 40,
+        "armorperlevel": 4.7,
+        "spellblock": 28,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 7.5,
+        "hpregenperlevel": 0.75,
+        "mpregen": 8.5,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0,
+        "attackdamage": 62,
+        "attackdamageperlevel": 3.5,
+        "attackspeedperlevel": 1.13,
+        "attackspeed": 0.65
+      }
+    },
+    {
+      "version": "13.4.1",
+      "id": "Brand",
+      "key": "63",
+      "name": "Brand",
+      "title": "a Vingança Flamejante",
+      "blurb": "A criatura conhecida como Brand já se chamou Kegan Rodhe, um membro da gélida Freljord, e é hoje uma lição do que a tentação por poderes maiores pode fazer. Enquanto buscava uma das lendárias Runas Globais, Kegan traiu seus companheiros e a pegou para...",
+      "info": {
+        "attack": 2,
+        "defense": 2,
+        "magic": 9,
+        "difficulty": 4
+      },
+      "image": {
+        "full": "Brand.png",
+        "sprite": "champion0.png",
+        "group": "champion",
+        "x": 240,
+        "y": 48,
+        "w": 48,
+        "h": 48
+      },
+      "tags": [
+        "Mage"
+      ],
+      "partype": "Mana",
+      "stats": {
+        "hp": 590,
+        "hpperlevel": 102,
+        "mp": 469,
+        "mpperlevel": 21,
+        "movespeed": 340,
+        "armor": 22,
+        "armorperlevel": 4.7,
+        "spellblock": 30,
+        "spellblockperlevel": 1.3,
+        "attackrange": 550,
+        "hpregen": 5.5,
+        "hpregenperlevel": 0.55,
+        "mpregen": 10.65,
+        "mpregenperlevel": 0.6,
+        "crit": 0,
+        "critperlevel": 0,
+        "attackdamage": 57,
+        "attackdamageperlevel": 3,
+        "attackspeedperlevel": 1.36,
+        "attackspeed": 0.625
+      }
+    },
+    {
+      "version": "13.4.1",
+      "id": "Braum",
+      "key": "201",
+      "name": "Braum",
+      "title": "o Coração de Freljord",
+      "blurb": "Abençoado com bíceps gigantescos e um coração maior ainda, Braum é um amado herói de Freljord. Cada salão de hidromel ao norte de Frostheld brinda sua força lendária que teria derrubado uma floresta de carvalhos em uma única noite e demolido uma...",
+      "info": {
+        "attack": 3,
+        "defense": 9,
+        "magic": 4,
+        "difficulty": 3
+      },
+      "image": {
+        "full": "Braum.png",
+        "sprite": "champion0.png",
+        "group": "champion",
+        "x": 288,
+        "y": 48,
+        "w": 48,
+        "h": 48
+      },
+      "tags": [
+        "Support",
+        "Tank"
+      ],
+      "partype": "Mana",
+      "stats": {
+        "hp": 610,
+        "hpperlevel": 112,
+        "mp": 311,
+        "mpperlevel": 45,
+        "movespeed": 335,
+        "armor": 47,
+        "armorperlevel": 5.2,
+        "spellblock": 32,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 8.5,
+        "hpregenperlevel": 1,
+        "mpregen": 6,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0,
+        "attackdamage": 55,
+        "attackdamageperlevel": 3.2,
+        "attackspeedperlevel": 3.5,
+        "attackspeed": 0.644
+      }
+    },
+    {
+      "version": "13.4.1",
+      "id": "Caitlyn",
+      "key": "51",
+      "name": "Caitlyn",
+      "title": "a Xerife de Piltover",
+      "blurb": "Conhecida como sua melhor pacificadora, Caitlyn também é a melhor escolha de Piltover para livrar a cidade de seus elementos criminosos elusivos. É comum que ela faça dupla com Vi, agindo como um contraponto de calmaria para a natureza impetuosa de sua...",
+      "info": {
+        "attack": 8,
+        "defense": 2,
+        "magic": 2,
+        "difficulty": 6
+      },
+      "image": {
+        "full": "Caitlyn.png",
+        "sprite": "champion0.png",
+        "group": "champion",
+        "x": 336,
+        "y": 48,
+        "w": 48,
+        "h": 48
+      },
+      "tags": [
+        "Marksman"
+      ],
+      "partype": "Mana",
+      "stats": {
+        "hp": 580,
+        "hpperlevel": 107,
+        "mp": 315,
+        "mpperlevel": 40,
+        "movespeed": 325,
+        "armor": 28,
+        "armorperlevel": 4.7,
+        "spellblock": 30,
+        "spellblockperlevel": 1.3,
+        "attackrange": 650,
+        "hpregen": 3.5,
+        "hpregenperlevel": 0.55,
+        "mpregen": 7.4,
+        "mpregenperlevel": 0.7,
+        "crit": 0,
+        "critperlevel": 0,
+        "attackdamage": 62,
+        "attackdamageperlevel": 3.8,
+        "attackspeedperlevel": 4,
+        "attackspeed": 0.681
+      }
+    },
+    {
+      "version": "13.4.1",
+      "id": "Camille",
+      "key": "164",
+      "name": "Camille",
+      "title": "a Sombra de Aço",
+      "blurb": "Munida para agir além dos limites da lei, Camille é a chefe de inteligência do Clã Ferros e uma elegante agente de elite, responsável pelo bom funcionamento da máquina de Piltover e de Zaun, seu submundo. Adaptável e precisa, ela vê técnicas medíocres...",
+      "info": {
+        "attack": 8,
+        "defense": 6,
+        "magic": 3,
+        "difficulty": 4
+      },
+      "image": {
+        "full": "Camille.png",
+        "sprite": "champion0.png",
+        "group": "champion",
+        "x": 384,
+        "y": 48,
+        "w": 48,
+        "h": 48
+      },
+      "tags": [
+        "Fighter",
+        "Tank"
+      ],
+      "partype": "Mana",
+      "stats": {
+        "hp": 646,
+        "hpperlevel": 99,
+        "mp": 339,
+        "mpperlevel": 52,
+        "movespeed": 340,
+        "armor": 35,
+        "armorperlevel": 5,
+        "spellblock": 32,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 8.5,
+        "hpregenperlevel": 0.8,
+        "mpregen": 8.15,
+        "mpregenperlevel": 0.75,
+        "crit": 0,
+        "critperlevel": 0,
+        "attackdamage": 68,
+        "attackdamageperlevel": 3.5,
+        "attackspeedperlevel": 2.5,
+        "attackspeed": 0.644
+      }
+    },
+    {
+      "version": "13.4.1",
+      "id": "Vladimir",
+      "key": "8",
+      "name": "Vladimir",
+      "title": "o Sanguinário Escarlate",
+      "blurb": "Um demônio sedento pelo sangue dos mortais, Vladimir tem influenciado os acontecimentos de Noxus desde os primórdios do império. Além de ter estendido sua vida por meios não naturais, sua maestria em hemomancia o permite controlar as mentes e corpos de...",
+      "info": {
+        "attack": 2,
+        "defense": 6,
+        "magic": 8,
+        "difficulty": 7
+      },
+      "image": {
+        "full": "Vladimir.png",
+        "sprite": "champion4.png",
+        "group": "champion",
+        "x": 240,
+        "y": 96,
+        "w": 48,
+        "h": 48
+      },
+      "tags": [
+        "Mage"
+      ],
+      "partype": "Ímpeto Vermelho",
+      "stats": {
+        "hp": 607,
+        "hpperlevel": 110,
+        "mp": 2,
+        "mpperlevel": 0,
+        "movespeed": 330,
+        "armor": 27,
+        "armorperlevel": 4.5,
+        "spellblock": 30,
+        "spellblockperlevel": 1.3,
+        "attackrange": 450,
+        "hpregen": 7,
+        "hpregenperlevel": 0.6,
+        "mpregen": 0,
+        "mpregenperlevel": 0,
+        "crit": 0,
+        "critperlevel": 0,
+        "attackdamage": 55,
+        "attackdamageperlevel": 3,
+        "attackspeedperlevel": 2,
+        "attackspeed": 0.658
+      }
+    },
+    {
+      "version": "13.4.1",
+      "id": "Volibear",
+      "key": "106",
+      "name": "Volibear",
+      "title": "a Tempestade Implacável",
+      "blurb": "Para aqueles que ainda o veneram, Volibear é a forma manifestada da tempestade. Destrutivo, selvagem e implacavelmente obstinado, ele já existia antes mesmo que os mortais andassem sobre a tundra de Freljord, protegendo as terras que ele e seus irmãos...",
+      "info": {
+        "attack": 7,
+        "defense": 7,
+        "magic": 4,
+        "difficulty": 3
+      },
+      "image": {
+        "full": "Volibear.png",
+        "sprite": "champion4.png",
+        "group": "champion",
+        "x": 288,
+        "y": 96,
+        "w": 48,
+        "h": 48
+      },
+      "tags": [
+        "Fighter",
+        "Tank"
+      ],
+      "partype": "Mana",
+      "stats": {
+        "hp": 650,
+        "hpperlevel": 104,
+        "mp": 350,
+        "mpperlevel": 70,
+        "movespeed": 340,
+        "armor": 31,
+        "armorperlevel": 5.2,
+        "spellblock": 32,
+        "spellblockperlevel": 2.05,
+        "attackrange": 150,
+        "hpregen": 9,
+        "hpregenperlevel": 0.75,
+        "mpregen": 6.25,
+        "mpregenperlevel": 0.5,
+        "crit": 0,
+        "critperlevel": 0,
+        "attackdamage": 60,
+        "attackdamageperlevel": 3.5,
+        "attackspeedperlevel": 2,
+        "attackspeed": 0.625
+      }
+    },
+    {
+      "version": "13.4.1",
+      "id": "Warwick",
+      "key": "19",
+      "name": "Warwick",
+      "title": "a Ira Desimpedida de Zaun",
+      "blurb": "Warwick é um monstro que caça pelas ruas cinzentas de Zaun. Transformado a partir de experimentos agonizantes, seu corpo agora é fundido a um sistema complexo de câmaras e bombas, um maquinário que enche suas veias com fúria química. Ele persegue os...",
+      "info": {
+        "attack": 9,
+        "defense": 5,
+        "magic": 3,
+        "difficulty": 3
+      },
+      "image": {
+        "full": "Warwick.png",
+        "sprite": "champion4.png",
+        "group": "champion",
+        "x": 336,
+        "y": 96,
+        "w": 48,
+        "h": 48
+      },
+      "tags": [
+        "Fighter",
+        "Tank"
+      ],
+      "partype": "Mana",
+      "stats": {
+        "hp": 620,
+        "hpperlevel": 99,
+        "mp": 280,
+        "mpperlevel": 35,
+        "movespeed": 335,
+        "armor": 33,
+        "armorperlevel": 4.4,
+        "spellblock": 32,
+        "spellblockperlevel": 2.05,
+        "attackrange": 125,
+        "hpregen": 4,
+        "hpregenperlevel": 0.75,
+        "mpregen": 7.45,
+        "mpregenperlevel": 0.6,
+        "crit": 0,
+        "critperlevel": 0,
+        "attackdamage": 65,
+        "attackdamageperlevel": 3,
+        "attackspeedperlevel": 2.3,
+        "attackspeed": 0.638
+      }
+    },
+    {
+      "version": "13.4.1",
+      "id": "Xayah",
+      "key": "498",
+      "name": "Xayah",
+      "title": "a Rebelde",
+      "blurb": "Mortal e precisa, Xayah é uma vastaya revolucionária que trava sua própria batalha para salvar seu povo. Ela usa sua agilidade, malícia e plumas afiadas para retalhar qualquer um que atrapalhe seu caminho. Xayah luta ao lado de seu parceiro e amante...",
+      "info": {
+        "attack": 10,
+        "defense": 6,
+        "magic": 1,
+        "difficulty": 5
+      },
+      "image": {
+        "full": "Xayah.png",
+        "sprite": "champion4.png",
+        "group": "champion",
+        "x": 384,
+        "y": 96,
+        "w": 48,
+        "h": 48
+      },
+      "tags": [
+        "Marksman"
+      ],
+      "partype": "Mana",
+      "stats": {
+        "hp": 660,
+        "hpperlevel": 102,
+        "mp": 340,
+        "mpperlevel": 40,
+        "movespeed": 330,
+        "armor": 25,
+        "armorperlevel": 4.2,
+        "spellblock": 30,
+        "spellblockperlevel": 1.3,
+        "attackrange": 525,
+        "hpregen": 3.25,
+        "hpregenperlevel": 0.75,
+        "mpregen": 8.25,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0,
+        "attackdamage": 60,
+        "attackdamageperlevel": 3.5,
+        "attackspeedperlevel": 3.9,
+        "attackspeed": 0.658
+      }
+    },
+    {
+      "version": "13.4.1",
+      "id": "Xerath",
+      "key": "101",
+      "name": "Xerath",
+      "title": "o Mago Ascendente",
+      "blurb": "Xerath é um mago Ascendente da antiga Shurima, um ser de energia arcana que existe em meio a estilhaços de um sarcófago mágico. Por milênios, ele ficou enclausurado debaixo das areias do deserto, mas o ressurgimento de Shurima o libertou de sua antiga...",
+      "info": {
+        "attack": 1,
+        "defense": 3,
+        "magic": 10,
+        "difficulty": 8
+      },
+      "image": {
+        "full": "Xerath.png",
+        "sprite": "champion4.png",
+        "group": "champion",
+        "x": 432,
+        "y": 96,
+        "w": 48,
+        "h": 48
+      },
+      "tags": [
+        "Mage"
+      ],
+      "partype": "Mana",
+      "stats": {
+        "hp": 596,
+        "hpperlevel": 106,
+        "mp": 459,
+        "mpperlevel": 22,
+        "movespeed": 340,
+        "armor": 22,
+        "armorperlevel": 4.7,
+        "spellblock": 30,
+        "spellblockperlevel": 1.3,
+        "attackrange": 525,
+        "hpregen": 5.5,
+        "hpregenperlevel": 0.55,
+        "mpregen": 8,
+        "mpregenperlevel": 0.8,
+        "crit": 0,
+        "critperlevel": 0,
+        "attackdamage": 55,
+        "attackdamageperlevel": 3,
+        "attackspeedperlevel": 1.36,
+        "attackspeed": 0.625
+      }
+    },
+    {
+      "version": "13.4.1",
+      "id": "XinZhao",
+      "key": "5",
+      "name": "Xin Zhao",
+      "title": "o Senescal de Demacia",
+      "blurb": "Xin Zhao é um guerreiro determinado, leal à dinastia Lumescudo. No passado, ele foi condenado a lutar como gladiador em Noxus, e sobreviveu à incontáveis lutas, mas depois de ser libertado por forças demacianas, ele prometeu sua vida e lealdade aos seus...",
+      "info": {
+        "attack": 8,
+        "defense": 6,
+        "magic": 3,
+        "difficulty": 2
+      },
+      "image": {
+        "full": "XinZhao.png",
+        "sprite": "champion5.png",
+        "group": "champion",
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      },
+      "tags": [
+        "Fighter",
+        "Assassin"
+      ],
+      "partype": "Mana",
+      "stats": {
+        "hp": 640,
+        "hpperlevel": 106,
+        "mp": 274,
+        "mpperlevel": 55,
+        "movespeed": 345,
+        "armor": 35,
+        "armorperlevel": 4.7,
+        "spellblock": 32,
+        "spellblockperlevel": 2.05,
+        "attackrange": 175,
+        "hpregen": 8,
+        "hpregenperlevel": 0.7,
+        "mpregen": 7.25,
+        "mpregenperlevel": 0.45,
+        "crit": 0,
+        "critperlevel": 0,
+        "attackdamage": 63,
+        "attackdamageperlevel": 3,
+        "attackspeedperlevel": 3.5,
+        "attackspeed": 0.645
+      }
+    },
+    {
+      "version": "13.4.1",
+      "id": "Yasuo",
+      "key": "157",
+      "name": "Yasuo",
+      "title": "o Imperdoável",
+      "blurb": "Yasuo, um ioniano extremamente determinado, é também um ágil espadachim que usa o próprio ar como arma para enfrentar seus inimigos. Quando jovem, ele teve seu orgulho ferido ao ser acusado injustamente do assassinato de seu mestre — sem conseguir...",
+      "info": {
+        "attack": 8,
+        "defense": 4,
+        "magic": 4,
+        "difficulty": 10
+      },
+      "image": {
+        "full": "Yasuo.png",
+        "sprite": "champion5.png",
+        "group": "champion",
+        "x": 48,
+        "y": 0,
+        "w": 48,
+        "h": 48
+      },
+      "tags": [
+        "Fighter",
+        "Assassin"
+      ],
+      "partype": "Fluxo",
+      "stats": {
+        "hp": 590,
+        "hpperlevel": 101,
+        "mp": 100,
+        "mpperlevel": 0,
+        "movespeed": 345,
+        "armor": 30,
+        "armorperlevel": 4.6,
+        "spellblock": 32,
+        "spellblockperlevel": 2.05,
+        "attackrange": 175,
+        "hpregen": 6.5,
+        "hpregenperlevel": 0.9,
+        "mpregen": 0,
+        "mpregenperlevel": 0,
+        "crit": 0,
+        "critperlevel": 0,
+        "attackdamage": 60,
+        "attackdamageperlevel": 3,
+        "attackspeedperlevel": 3.5,
+        "attackspeed": 0.697
+      }
+    }
+  ]
 }
